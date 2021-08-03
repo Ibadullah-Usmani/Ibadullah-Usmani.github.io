@@ -1,6 +1,6 @@
 # GTA 5 Bank Hacking minigame 
 
-## MY attempt at replicating the minigame made by GTA 5 NoPixel Community
+## My attempt at replicating the minigame made by GTA 5 NoPixel Community
 
 ### How The Game Works
 ---
