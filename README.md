@@ -10,4 +10,4 @@
 
 [Play the game here](https://ibadullah-usmani.github.io/) and see how many you can solve in a row!
 
-![Example](./SAMPLE.jpg?raw=true "Example")
+![Example](../SAMPLE.jpg?raw=true "Example")
