@@ -9,3 +9,5 @@
 5) Player has 6 seconds to figure out and answer the puzzle
 
 [Play the game here](https://ibadullah-usmani.github.io/) and see how many you can solve in a row!
+
+![Example](/SAMPLE.jpg?raw=true "Example")
