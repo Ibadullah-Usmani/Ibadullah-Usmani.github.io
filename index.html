@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GTA 5 Bank Heist Minigame</title>
+  <meta name="description" content="GTA 5 Bank Heist Minigame replica">
+  <meta name="author" content="IbadUsmani">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+    <div class="container" id="cont">
+
+        <div class="startPage" id="mainPage">
+            <!-- <button class="startButton" id="start" type="button">START</button> -->
+            <div class="startBox" id="start">
+                <label id="startButton">START</label>
+            </div> 
+        </div>
+
+        <div class="promptOrder" id="order"></div>
+        
+        <!--Generate divs from code for each tile-->
+        <div class="tiles" id="tileBox"></div> 
+
+    </div>   
+    
+    <div class="infoBox" id="infoBoxId">
+        <div class="resultBox" id="resultContainer">
+            <label class="solution" id="realNums"></label>
+            <label class="solution" id="realAnswer"></label>
+        </div> 
+
+        <div class="timeLine" id="time">
+            <div id="timer"></div> 
+        </div> 
+
+        <div class="questionLabel" id="questionId">
+            <div class="streakBox">
+                <label id="streak"></label>
+            </div>
+            <div class="questionBox">
+                <label id="question"></label>
+            </div>
+            
+        </div> 
+    </div> 
+
+
+    <div class="input" id="inputBox">
+        <label id="qsLabel" for="answer">Answer: </label><br>
+        <input type="text" id="answer" name="answer" placeholder="circle blue" autofocus><br>
+        <button class="tryAgain" id="restart" type="button">Try Again!</button>
+    </div>
+
+<script src="main.js"></script>
+<!-- <script>
+    function reset(){
+        $('#tileBox').empty();
+        $('#order').empty();
+    }
+</script> -->
+
+</body>
+</html>
